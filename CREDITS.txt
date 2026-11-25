@@ -1,0 +1,15 @@
+CREDITS - FASTagram Semester Project
+====================================
+
+1. Assets & Images:
+   - login_bg.jpg: Hand-drawn floral corner background art (Pinterest / Creative Commons).
+   - icon.ico: FASTagram application icon.
+
+2. Typography:
+   - Honeybeeregular-MG0p.ttf: Honeybee Regular TrueType Font.
+
+3. Libraries & Tools:
+   - raylib v5.5 / v6.5-dev: A simple and easy-to-use library to enjoy videogames programming (www.raylib.com).
+     Licensed under zlib/libpng license. Copyright (c) 2013-2024 Ramon Santamaria (@raysan5).
+   - GLFW: Multi-platform library for OpenGL, window and input (www.glfw.org).
+     Licensed under zlib/libpng license.
