@@ -1,0 +1,14 @@
+--- FASTAGRAM PERSISTENT DATABASE ---
+[ACCOUNTS] 6
+101|i261234|Sara Ahmed|Hey there! Using FASTagram.
+102|i265544|Ali Khan|Hey there! Using FASTagram.
+103|i267788|Zainab Malik|Hey there! Using FASTagram.
+104|i269900|Hamza Tariq|Hey there! Using FASTagram.
+105|dr.usman|Dr. Usman|Hey there! Using FASTagram.
+106|acm_fast|ACM Society|Hey there! Using FASTagram.
+[POSTS] 4
+4|i269900|Hamza Tariq|Just now|Software Exhibition project registration is now live. Let's build something epic! 🚀💻
+3|i267788|Zainab Malik|Just now|Captured this golden sunset behind the FAST CS building today! Campus looks so calm. 🌇✨
+2|i265544|Ali Khan|Just now|Anyone studying for OOP in the library right now? Need help with Polymorphism! 📚☕
+1|i261234|Sara Ahmed|Just now|FAST CS midterms are finally over! Who wants ice cream at the cafeteria? 🍦🎉
+--- END OF FILE ---

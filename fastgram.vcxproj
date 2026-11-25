@@ -31,14 +31,13 @@
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>fastgram</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -301,7 +300,7 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
+    <ItemGroup>
     <ClInclude Include="src\core\Serializable.h" />
     <ClInclude Include="src\core\Session.h" />
     <ClInclude Include="src\models\Account.h" />
@@ -324,7 +323,7 @@
     <ClInclude Include="src\ui\screens\ChatScreen.h" />
     <ClInclude Include="src\resource_dir.h" />
   </ItemGroup>
-  <ItemGroup>
+    <ItemGroup>
     <ClCompile Include="src\core\Session.cpp" />
     <ClCompile Include="src\models\Account.cpp" />
     <ClCompile Include="src\models\Post.cpp" />
@@ -345,8 +344,10 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+
   </ItemGroup>
   <ItemGroup>
+
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
