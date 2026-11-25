@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="services">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\widgets">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\screens">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core\Serializable.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Session.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\models\Account.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\models\Comment.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\models\Post.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\models\Message.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\UserManager.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\PostManager.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\ChatManager.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\StorageManager.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\widgets\Widget.h">
+      <Filter>ui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\widgets\Button.h">
+      <Filter>ui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\widgets\CuteMascot.h">
+      <Filter>ui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\widgets\TextBox.h">
+      <Filter>ui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\screens\ProfileScreen.h">
+      <Filter>ui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\screens\SignupScreen.h">
+      <Filter>ui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\screens\SettingsScreen.h">
+      <Filter>ui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\screens\FeedScreen.h">
+      <Filter>ui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\screens\SearchScreen.h">
+      <Filter>ui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\screens\ChatScreen.h">
+      <Filter>ui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource_dir.h">
+      <Filter>app</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\Session.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\models\Account.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\models\Post.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\models\Message.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\UserManager.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\PostManager.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\ChatManager.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\StorageManager.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\widgets\Button.cpp">
+      <Filter>ui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\widgets\CuteMascot.cpp">
+      <Filter>ui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\widgets\TextBox.cpp">
+      <Filter>ui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\screens\ProfileScreen.cpp">
+      <Filter>ui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\screens\SignupScreen.cpp">
+      <Filter>ui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\screens\SettingsScreen.cpp">
+      <Filter>ui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\screens\FeedScreen.cpp">
+      <Filter>ui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\screens\SearchScreen.cpp">
+      <Filter>ui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\screens\ChatScreen.cpp">
+      <Filter>ui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
